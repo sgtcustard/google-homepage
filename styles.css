@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: Arial;
+}
+
+html,
+body {
+	padding-bottom: 40px;
+	min-height: 100vh;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+ul {
+	
+	font-family: Arial;
+	font-size: 13px;
+	color: #616161;
+	margin: 0px 20px 0px 20px;
+}
+
+
+a:link,
+a:visited {
+	color: #424242;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+	
+span.footer {
+	
+	background-color: #EEE;
+	height: 40px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	line-height: 30px;
+	
+}
+
+
+.footer a {
+	margin: auto 0;
+	color: rgb(95, 99, 104);
+	
+}
+
+
+.navleft {
+	float: left;
+
+}
+
+
+.navright {
+	float: right;
+}
+
+
+a {
+	display: inline-block;
+	padding: 8px;
+	text-decoration: none;
+	
+}
+
+
+img, .logo {
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	margin-top: 150px;
+	margin-bottom: 25px;
+}
+
+
+form {
+
+	text-align: center;
+}
+
+
+.mainsearch,
+.mainsearch:active {
+	width: 520px;
+	height: 45px;
+	margin-bottom: 20px;
+	border: 2px solid #EEEEEE;
+	border-radius: 25px;
+	box-shadow: none;
+}
+
+.mainsearch:hover {
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.button {
+	background-color: #EEEEEE;
+	color: #616161;
+	width: 150px;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #EEEEEE;
+	margin: 5px 5px;
+	font-size: 14px;
+
+}
+	
+	
